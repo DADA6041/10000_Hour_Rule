@@ -1,1 +1,1 @@
-# 10000_Hour_Rule
+# 10000_Hours_Rule
