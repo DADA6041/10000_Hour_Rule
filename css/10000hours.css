@@ -34,6 +34,7 @@ body{
     font-family: 'GmarketSansMedium';
     background-color: #5B2386;
     color: white;
+    font-size: 20px;
 }
 
 .sr-only {
@@ -45,4 +46,124 @@ body{
     margin: -1px;
     border: 0;
     padding: 0;
+}
+
+.title_img {
+    margin: 50px 0;
+    position: relative;
+}
+
+.title_img .title-timerule{
+    position: absolute;
+    width: 564px;
+    left: 50%;
+    margin-top: 74px;
+    margin-left: -282px;
+}
+.title .title-clock{
+    position: absolute;
+    width: 265px;
+    height: 265px;
+}
+
+.img-prac{
+    width: 486px;
+    margin-bottom: 78px;
+}
+.prac-img-wrap{
+    position: relative;
+    margin-bottom: 102px;
+}
+
+.img-quotes{
+    width: 460px;
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 25px;
+}
+.img-desc{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.title-desc{
+    font-family: 'GmarketSansBold';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.input-box{
+    width: 228px;
+    height: 57px;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+::placeholder {
+    color: #BABCBE;
+}
+.click-wrap{
+    margin-top: 50px; /* 수정 */
+}
+.btn-how , .btn-go, .btn-share{
+    background-color: #FCEE21;
+    font-family: 'GmarketSansBold';
+    font-size: 20px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 56px;    
+    color: #5B2386;
+    cursor: pointer;
+}
+.img-click{
+    position: absolute;
+    vertical-align: baseline;
+}
+.btn-share {
+    background-color: white;
+    color: #5B2386;
+    margin-top: 50px;
+}
+.cont-result{
+    padding-top: 70px;
+}
+.input-data.job , .day{
+    font-size: 70px;
+    font-family: "GmarketSansBold";
+}
+
+.cont-footer{
+    margin-top: 50px;
+}
+
+.foot-logo{
+    width: 125px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.txt-footer{
+    display: block;
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.cheer-modal-wrap{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px 0;
+    border-radius: 25px;
+}
+.heart-modal{
+    margin-bottom: 4px;
+}
+
+.licat-modal{
+    margin-bottom: 30px;
 }

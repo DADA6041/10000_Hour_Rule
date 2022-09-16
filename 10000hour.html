@@ -11,62 +11,73 @@
 <body>
     <div class="container">
         <header>
-            <h1 id="hours-title">
-                <img class="title-timelaw" src="img/title.png" alt="1만 시간의 법칙">
-                <img class="title-clock" src="img/clock.png" alt="">
-                
+            <h1 class="title_img">
+                <img class="title-timerule" src="img/title.svg" alt="1만 시간의 법칙">
+                <img class="title-clock" src="img/clock.svg" alt="">
             </h1>
         </header>
         <main>
-            <img class="img-prac" src="img/prac.png" alt="연습은 어제의 당신보다 당신을 더 낫게 만든다.">
-            <img class="img-quotes" src="img/quotes.png" alt="">
-            <p class="img-desc"><strong class="title-desc">1만 시간의 법칙</strong>은<br>
-                어떤 분야의 전문가가 되기 위해서는 <br>
-                최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
-            
-            <form class="cont-input">
-                <p class="text-wannabe">
-                    나는
-                    <input type="text" placeholder="예)프로그래밍" required>
-                    전문가가 될 것이다.
-                </p>
-
-                <p class="txt-plan">
-                    그래서 앞으로 매일 하루에
-                    <input type="text" placeholder="예)5시간" required>
-                    시간씩 훈련할 것이다.
-                </p>
-                <button class="btn-how">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
-                <img src="img/click.png" alt="">
-            </form>
-            <section id="result" class="cont-result">
-                <h2 class="sr-only">결과 확인</h2>
-                <p class="txt-wannbe">
-                    당신은
-                    <strong></strong>
-                    전문가가 되기 위해서
-                </p>
-                <p class="txt-plan">
-                    대략 
-                    <strong></strong>
-                    일 이상 훈련하셔야 합니다! :)
-                </p>
+            <div class="main-wrapper">
+                <section class="intro">
+                    <h2 class="sr-only">10000시간 설명</h2>
+                    <img class="img-prac" src="img/prac.svg" alt="연습은 어제의 당신보다 당신을 더 낫게 만든다.">
+                    <div class="prac-img-wrap">
+                        <img class="img-quotes" src="img/quotes.svg" alt="">
+                        <p class="img-desc"><strong class="title-desc">1만 시간의 법칙</strong>은<br>
+                        어떤 분야의 전문가가 되기 위해서는 <br>
+                        최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
+                    </div>
+                </section>
+                <section class="input-text">
+                    <form class="cont-input">
+                        <p class="text-wannabe">
+                            나는
+                            <input class="input-box" type="text" placeholder="예)프로그래밍" required>
+                            전문가가 될 것이다.
+                        </p>
+    
+                        <p class="txt-plan">
+                            그래서 앞으로 매일 하루에
+                            <input class="input-box" type="number" placeholder="예)5시간" max="24" required>
+                            시간씩 훈련할 것이다.
+                        </p>
+                        <div class="click-wrap">
+                            <button class="btn-how">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+                            <img class="img-click" src="img/click.svg" alt="">
+                        </div>
+                    </form>
+                </section>
+                <section id="result" class="cont-result">
+                    <h2 class="sr-only">결과 확인</h2>
+                    <p class="txt-wannbe">
+                        당신은
+                        <strong class="input-data job">프론트엔드</strong>
+                        전문가가 되기 위해서
+                    </p>
+                    <p class="txt-plan">
+                        대략 
+                        <strong class="input-data day">1234</strong>
+                        일 이상 훈련하셔야 합니다! :)
+                    </p>
                     <button class="btn-go">훈련하러 가기 GO!GO!</button>
                     <button class="btn-share">공유하기</button>
-            </section>
+                </section>
+            </div>
         </main>
         <footer class="cont-footer">
-            <img src="img/logo.png" alt="주식회사 위니브">
+            <img class="foot-logo" src="img/logo.svg" alt="주식회사 위니브">
             <small class="txt-footer">※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다. <br>
             수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</small>
         </footer>
     </div>
     <section class="cont-modal">
-        <h2 class="sr-only">응원 모달</h2>
-        <img src="img/heart.png" alt="화이팅">
-        <img src="img/cheerup.png" alt="당신의 꿈을 응원합니다.">
-        <img src="img/licat.png" alt="응원하는 라이캣 이모지">
-        <button class="btn-go">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+        <div class="cheer-modal-wrap">
+            <h2 class="sr-only">응원 모달</h2>
+            <img class="heart-modal" src="img/heart.svg" alt="화이팅">
+            <img class="cheer-modal" src="img/cheerup.svg" alt="당신의 꿈을 응원합니다.">
+            <img class="licat-modal" src="img/licat.svg" alt="응원하는 라이캣 이모지">
+            <button class="btn-go">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+        </div>
     </section>
 </body>
 </html>
