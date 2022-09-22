@@ -126,7 +126,11 @@ body{
     margin-top: 50px;
 }
 .cont-result{
-    padding-top: 70px;
+    margin: 80px 0;
+    display: none; /* modal hide */
+}
+.cont-result p+p {
+    margin: 20px 0;
 }
 .input-data.job , .day{
     font-size: 70px;
@@ -159,6 +163,7 @@ body{
     box-sizing: border-box;
     padding: 25px 0;
     border-radius: 25px;
+    display: none; /* modal hide */
 }
 .heart-modal{
     margin-bottom: 4px;
