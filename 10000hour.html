@@ -43,13 +43,16 @@
                             시간씩 훈련할 것이다.
                         </p>
                         <div class="click-wrap">
-                            <button class="btn-how">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+                            <button type="button" class="btn-how">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
                             <img class="img-click" src="img/click.svg" alt="">
                         </div>
                     </form>
                 </section>
-                <section id="result" class="cont-result">
+                <section id="result" class="cont-result hidden">
                     <h2 class="sr-only">결과 확인</h2>
+                    <div class="img-wrap">
+                        <img src="./img/loading.png" alt="로딩중">
+                    </div>
                     <p class="txt-wannbe">
                         당신은
                         <strong class="input-data job">프론트엔드</strong>
@@ -77,8 +80,10 @@
             <img class="heart-modal" src="img/heart.svg" alt="화이팅">
             <img class="cheer-modal" src="img/cheerup.svg" alt="당신의 꿈을 응원합니다.">
             <img class="licat-modal" src="img/licat.svg" alt="응원하는 라이캣 이모지">
-            <button class="btn-go">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+            <button id="btnClosed" class="btn-go">종료하고 진짜 훈련하러 가기 GO!GO!</button>
         </div>
     </section>
+
+    <script src="./js/10000hours.js"></script>
 </body>
 </html>
