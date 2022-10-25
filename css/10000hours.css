@@ -140,10 +140,6 @@ body{
     display: none;
 }
 
-
-.cont-result .show{
-    display: block; 
-}
 .cont-result p+p {
     margin: 20px 0;
 }

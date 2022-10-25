@@ -33,13 +33,15 @@
                     <form class="cont-input">
                         <p class="text-wannabe">
                             나는
-                            <input class="input-box" type="text" placeholder="예)프로그래밍" required>
+                            <label for="inpWannabe" class="sr-only">전문가 입력창</label>
+                            <input id="inpWannabe" class="input-box" type="text" placeholder="예)프로그래밍" required>
                             전문가가 될 것이다.
                         </p>
     
                         <p class="txt-plan">
                             그래서 앞으로 매일 하루에
-                            <input class="input-box" type="number" placeholder="예)5시간" max="24" required>
+                            <label for="inpTime" class="sr-only">시간 입력창</label>
+                            <input id="inpTime" class="input-box" type="number" placeholder="예)5시간" max="24" required>
                             시간씩 훈련할 것이다.
                         </p>
                         <div class="click-wrap">
@@ -53,16 +55,18 @@
                     <div class="img-wrap">
                         <img src="./img/loading.png" alt="로딩중">
                     </div>
-                    <p class="txt-wannbe">
-                        당신은
-                        <strong class="input-data job">프론트엔드</strong>
-                        전문가가 되기 위해서
-                    </p>
-                    <p class="txt-plan">
-                        대략 
-                        <strong class="input-data day">1234</strong>
-                        일 이상 훈련하셔야 합니다! :)
-                    </p>
+                    <div class="result-wrap">
+                        <p class="txt-wannbe">
+                            당신은
+                            <strong id="inpResult"  class="input-data job">프론트엔드</strong>
+                            전문가가 되기 위해서
+                        </p>
+                        <p class="txt-plan">
+                            대략 
+                            <strong id="timeResult" class="input-data day">1234</strong>
+                            일 이상 훈련하셔야 합니다! :)
+                        </p>
+                    </div>
                     <button class="btn-go">훈련하러 가기 GO!GO!</button>
                     <button class="btn-share">공유하기</button>
                 </section>
