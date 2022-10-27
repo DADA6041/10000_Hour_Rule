@@ -21,6 +21,7 @@ function calc() {
     if(inpVal.value == ''){
         alert('입력해주세요!');
         inpVal.focus();
+        return false;
     } else if(timeVal.value == ''){
         alert('입력해주세요!');
         timeVal.focus();
