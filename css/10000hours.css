@@ -112,6 +112,7 @@ body{
 }
 ::placeholder {
     color: #BABCBE;
+    font-family: 'GmarketSansMedium';
 }
 .click-wrap{
     margin-top: 50px; /* 수정 */
@@ -206,6 +207,9 @@ body{
 }
 
 @media all and (min-width: 360px) and (max-width: 767px){
+    body{
+        font-size: 18px;
+    }
     .title_img {
         margin: 40px 0;
     }
@@ -226,7 +230,46 @@ body{
         top: 35%;
         transform: translate(0, -50%);
     }
-    .img-desc , .title-desc{
-        font-size: 17px;
+    .prac-img-wrap{
+        margin-bottom: 60px;
+    }
+    ::placeholder {
+        font-size: 18px;
+    }
+
+    .title-desc{
+        font-size: 20px;
+    }
+    .txt-plan .txt-front{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .btn-how , .btn-go, .btn-share{
+        font-size: 18px;
+    }
+    .btn-how {
+        width: 300px;
+        border-radius: 20px;
+    }
+    .click-wrap{
+        margin-top: 40px;
+    }
+    .input-data.job , .day{
+        font-size: 30px;
+    }
+    .input-box{
+        width: 200px;
+        height: 47px;
+        font-size: 20px;
+    }
+    .btn-share {
+        margin-top: 40px;
+    }
+    .cont-footer{
+        margin-top: 40px;
+    }
+    .txt-footer{
+        font-size: 10px;
     }
 }
